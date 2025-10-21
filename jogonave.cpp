@@ -143,7 +143,7 @@ void lancarmissil(int dist){
 	for(int i = 3; i <= dist; i++){
 		
 		missil();
-		Sleep(300);
+		Sleep(200);
 		missilpos++;
 	}
 	
