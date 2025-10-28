@@ -21,7 +21,7 @@ int loop();
 void atirar(int lin, int col);
 
 
-int main(){
+main(){
        
        
     	int tipo, lin, col;
@@ -57,7 +57,7 @@ int main(){
            
            
    		}while(1);
-        return 0;
+       
        
 }       
 int posicionar(int tipo, int lin, int col){
@@ -116,18 +116,15 @@ int posicionar(int tipo, int lin, int col){
 
 
 void iniciatabuleiro(){
-	int i;
-    for(i = 0; i < 5; i++){
-    	int j;
-        for(j = 0; j < 5; j++){
-            matrix[i][j] = 0;
+    for(int i = 0; i < 5; i++){
+        for(int j = 0; j < 5; j++){
+            matrix[i][j] == 0;
         }
     }    
 }
 
 
 void tabuleiro(){
-	
     for(int i = 0; i < 5; i++){
         for(int j = 0; j < 5; j++){
             if(matrix[i][j] == 9){
