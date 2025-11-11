@@ -163,7 +163,6 @@ void atirar(int lin, int col){
     
 }
 void prepAtirar(){
-	system("cls");
 	int lin, col;
 	printf("Digite a linha:\n");
 	scanf("%i", &lin);
@@ -183,7 +182,7 @@ void prepAtirar(){
 	atirar(lin, col);
 	
 	tabuleiro();
-	loop();
+	prepAtirar();
 }
 int loop(){
 			printf("\n1 - Posicionar embarcacao\n");
