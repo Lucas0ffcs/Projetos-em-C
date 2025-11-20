@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//vet[z-1].codigo
+
 
 void menu();
 int z = 0;
