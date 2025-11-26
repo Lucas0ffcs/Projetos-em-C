@@ -126,17 +126,17 @@ void gotoxy(int x, int y) {
 }
 void monstro(){
 	gotoxy(pehpos,coordpe-5);
-	printf("%c",64);//cabeça
+	printf("%c",64);//cabeÃ§a
 	gotoxy(pehpos-2,coordpe-4);
-	printf("%c%c%c%c%c",178,32,219,32,178);//ponta dos braços e pescoço
+	printf("%c%c%c%c%c",178,32,219,32,178);//ponta dos braÃ§os e pescoÃ§o
 	gotoxy(pehpos-2,coordpe-3);
-	printf("%c%c%c%c%c",219,220,219,220,219);//braços e tronco
+	printf("%c%c%c%c%c",219,220,219,220,219);//braÃ§os e tronco
 	gotoxy(pehpos,coordpe-2);
 	printf("%c",219);//cintura
 	gotoxy(pehpos-1,coordpe-1);
 	printf("%c%c%c",219,223,219);//quadril
 	gotoxy(pehpos-1,coordpe);
-	printf("%c%c%c",219,32,219);//pés
+	printf("%c%c%c",219,32,219);//pÃ©s
 }
 void lancarmissil(int dist){
 	gotoxy(missilpos, 10);
@@ -152,7 +152,7 @@ void missil(){
     if (missilpos > 3) {  
         gotoxy(missilpos-1, 10);  
         printf(" ");  
-       	 // sobrescreve com espaço para "apagar" o rastro
+       	 // sobrescreve com espaÃ§o para "apagar" o rastro
     }
 	
     gotoxy(missilpos, 10);  
