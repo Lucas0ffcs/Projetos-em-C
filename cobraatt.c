@@ -53,7 +53,7 @@ main(){
 
 void cobra(){
 	gotoxy(xhead,yhead);
-	printf("%c", vet[2]);//cabeça
+	printf("%c", vet[2]);//cabeÃ§a
 	gotoxy(xbody,ybody);
 	printf("%c%c", 220,220);
 	
@@ -105,7 +105,7 @@ void andaA(char a){
 	system("cls");
 	yhead--;
 	gotoxy(xhead,yhead);
-	printf("%c", vet[2]);//cabeça
+	printf("%c", vet[2]);//cabeÃ§a
 	xbody++;
 	gotoxy(xbody,ybody);
 	printf("%c",vet[1]);
